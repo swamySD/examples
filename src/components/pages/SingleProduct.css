@@ -1,0 +1,115 @@
+.product-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding: 4px; */
+    height: 460px;
+    width:298px;
+    background-color: azure;
+    margin: 10px;
+    box-shadow: inset;
+    border: 1px solid lawngreen;
+
+}
+
+.image-conatainer{
+    height:200px;
+    width:296px;
+   overflow: hidden;
+  display: flex;
+  margin-top: 5px;
+
+}
+.single-images{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+object-fit: cover;
+}
+.title{
+    font-size: 10px;
+}
+.description{
+    font-size:14px;
+    
+}
+.description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    text-align: center;
+}
+.price{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+
+@media screen and (min-width:768px){
+    .product{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        /* padding: 4px; */
+        height: 560px;
+        width:498px;
+        background-color: azure;
+        margin: 10px;
+        box-shadow: inset;
+        border: 1px solid lawngreen;
+    
+    }
+    .single-images{
+        max-width: inherit;
+        max-height: inherit;
+        height: inherit;
+        width: inherit;
+    object-fit: cover;
+    }
+    .title{
+        font-size: 10px;
+    }
+    .description{
+        font-size:14px;
+        
+    }
+    .description-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 36px;
+        text-align: center;
+    }
+    .price{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .image-conatainer{
+        height:400px;
+        width:496px;
+       background-size: cover;
+      display: flex;
+      margin-top: 0%;
+    
+    }
+
+
+}
+
